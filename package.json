@@ -1,0 +1,35 @@
+{
+  "name": "graphsql-nodeapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mongoose": "^5.11.97",
+    "apollo-server-express": "^3.12.1",
+    "class-validator": "^0.14.0",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.2",
+    "redis": "^4.6.10",
+    "reflect-metadata": "^0.1.13",
+    "socket.io": "^4.7.2",
+    "type-graphql": "^1.1.1",
+    "typeorm": "^0.3.17"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/graphql": "^14.5.0",
+    "@types/jsonwebtoken": "^9.0.3",
+    "@types/node": "^20.6.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
